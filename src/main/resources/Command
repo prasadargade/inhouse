@@ -1,0 +1,37 @@
+########################## Kafka  ##########################
+zkserver
+
+E:\Softwares\kafka_2.13-2.4.0\bin\windows\kafka-server-start.bat E:\Softwares\kafka_2.13-2.4.0\config\server.properties
+
+E:\Softwares\kafka_2.13-2.4.0\bin\windows\kafka-topics.bat --list --zookeeper localhost:2181
+
+E:\Softwares\kafka_2.13-2.4.0\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic App --from-beginning 
+--zookeeper localhost:2181
+
+
+########################## Couchbase  ##########################
+CREATE PRIMARY INDEX `registration_info` ON `Registration`
+
+function (doc, meta) {
+  if(doc._class == "com.org.document.RegistrationDocument") {
+  	emit(meta.id, null);
+	}
+}
+
+function (doc, meta) {
+  if(doc._class == "com.org.document.RegistrationDocument" && doc.firstName) {
+	  emit(doc.firstName, null);
+	}
+}
+
+
+function (doc, meta) {
+  if(doc._class == "com.org.document.EmployeeDocument") {
+  	emit(meta.id, null);
+	}
+}
+
+
+############################################################
+https://localhost:8085/request/authenticate?page=login
+https://localhost:8085/employee/employeePage
