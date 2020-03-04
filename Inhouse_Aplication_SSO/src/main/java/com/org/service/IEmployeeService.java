@@ -5,8 +5,8 @@ import java.util.Map;
 
 import javax.validation.Valid;
 
-import com.org.dto.EmployeeDto;
 import com.org.entity.EmployeeEntity;
+import com.org.entity.dto.EmployeeDto;
 import com.org.exeception.RegistrationException;
 
 public interface IEmployeeService {

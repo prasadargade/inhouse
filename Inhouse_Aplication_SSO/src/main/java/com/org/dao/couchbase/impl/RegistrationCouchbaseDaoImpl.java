@@ -6,8 +6,8 @@ import org.joda.time.DateTime;
 import org.springframework.stereotype.Repository;
 
 import com.org.dao.couchbase.IRegistrationCouchbaseDao;
-import com.org.document.RegistrationDocument;
-import com.org.dto.RegistrationDto;
+import com.org.entity.couchbase.document.RegistrationDocument;
+import com.org.entity.dto.RegistrationDto;
 
 import lombok.extern.log4j.Log4j2;
 

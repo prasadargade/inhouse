@@ -7,9 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 import com.org.dao.mysql.IRegistrationMySqlDao;
-import com.org.dto.RegistrationDto;
 import com.org.entity.RegistrationEntity;
 import com.org.entity.RoleEntity;
+import com.org.entity.dto.RegistrationDto;
 import com.org.repository.RoleRepository;
 
 public class RegistrationMySqlDaoImpl extends GenericJpaDaoImpl<RegistrationEntity, Serializable> implements IRegistrationMySqlDao {

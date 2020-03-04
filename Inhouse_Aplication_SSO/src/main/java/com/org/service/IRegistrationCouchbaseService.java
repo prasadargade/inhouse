@@ -3,7 +3,8 @@ package com.org.service;
 import java.util.List;
 import org.springframework.data.couchbase.core.query.N1qlPrimaryIndexed;
 import org.springframework.data.couchbase.core.query.ViewIndexed;
-import com.org.dto.RegistrationDto;
+
+import com.org.entity.dto.RegistrationDto;
 
 @N1qlPrimaryIndexed
 @ViewIndexed(designDoc = "RegistrationDocument", viewName = "RegistrationAll")

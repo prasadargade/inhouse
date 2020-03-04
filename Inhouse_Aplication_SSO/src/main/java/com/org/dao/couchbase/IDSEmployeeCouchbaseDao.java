@@ -3,7 +3,8 @@ package com.org.dao.couchbase;
 import java.util.List;
 import org.springframework.data.couchbase.core.query.N1qlPrimaryIndexed;
 import org.springframework.data.couchbase.core.query.ViewIndexed;
-import com.org.dto.EmployeeDto;
+
+import com.org.entity.dto.EmployeeDto;
 import com.org.exeception.RegistrationException;
 
 @N1qlPrimaryIndexed

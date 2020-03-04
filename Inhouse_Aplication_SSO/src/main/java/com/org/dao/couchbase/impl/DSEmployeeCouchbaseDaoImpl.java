@@ -9,8 +9,8 @@ import org.springframework.data.couchbase.core.CouchbaseTemplate;
 import org.springframework.stereotype.Service;
 
 import com.org.dao.couchbase.IDSEmployeeCouchbaseDao;
-import com.org.document.EmployeeDocument;
-import com.org.dto.EmployeeDto;
+import com.org.entity.couchbase.document.EmployeeDocument;
+import com.org.entity.dto.EmployeeDto;
 import com.org.exeception.RegistrationException;
 
 import lombok.extern.log4j.Log4j2;

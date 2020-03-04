@@ -7,8 +7,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.org.dto.RegistrationDto;
-import com.org.model.Registration;
+import com.org.entity.dto.RegistrationDto;
+import com.org.entity.model.Registration;
 import com.org.service.impl.RegistrationServiceImpl;
 
 import lombok.extern.log4j.Log4j2;

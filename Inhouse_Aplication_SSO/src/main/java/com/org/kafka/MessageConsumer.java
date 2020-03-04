@@ -9,7 +9,8 @@ import org.springframework.kafka.support.KafkaHeaders;
 import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Service;
-import com.org.dto.EmployeeDto;
+
+import com.org.entity.dto.EmployeeDto;
 import com.org.exeception.RegistrationException;
 import com.org.reflection.AbstractReflection;
 import com.org.serializable.GenericDeserializer;

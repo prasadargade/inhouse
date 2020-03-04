@@ -1,4 +1,4 @@
-package com.org.dto;
+package com.org.entity.dto;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

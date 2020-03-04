@@ -1,7 +1,8 @@
 package com.org.service;
 
 import javax.validation.Valid;
-import com.org.dto.RegistrationDto;
+
+import com.org.entity.dto.RegistrationDto;
 
 public interface IRegistrationService {
 

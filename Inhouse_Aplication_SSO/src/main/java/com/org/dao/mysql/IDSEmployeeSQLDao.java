@@ -1,8 +1,9 @@
 package com.org.dao.mysql;
 
 import java.util.List;
-import com.org.dto.EmployeeDto;
+
 import com.org.entity.EmployeeEntity;
+import com.org.entity.dto.EmployeeDto;
 import com.org.exeception.RegistrationException;
 
 public interface IDSEmployeeSQLDao {

@@ -7,7 +7,7 @@ import java.lang.reflect.Method;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 
-import com.org.dto.EmployeeDto;
+import com.org.entity.dto.EmployeeDto;
 import com.org.service.impl.DSEmployeeServiceImpl;
 
 public class Test {
@@ -51,7 +51,7 @@ public class Test {
 		// _appContext = new AnnotationConfigApplicationContext(AnnotationConfig.class);
 
 		DSEmployeeServiceImpl bean = (DSEmployeeServiceImpl) _appContext.getBean(DSEmployeeServiceImpl.class);
-		Method method = bean.getClass().getMethod("saveEmployee", com.org.dto.EmployeeDto.class);
+		Method method = bean.getClass().getMethod("saveEmployee", com.org.entity.dto.EmployeeDto.class);
 		EmployeeDto employeeDto = new EmployeeDto();
 		method.invoke(bean, employeeDto);
 	}

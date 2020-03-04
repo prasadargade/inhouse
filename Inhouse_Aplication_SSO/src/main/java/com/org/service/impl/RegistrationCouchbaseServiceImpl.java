@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.couchbase.core.CouchbaseTemplate;
 import org.springframework.stereotype.Service;
 
-import com.org.document.RegistrationDocument;
-import com.org.dto.RegistrationDto;
+import com.org.entity.couchbase.document.RegistrationDocument;
+import com.org.entity.dto.RegistrationDto;
 import com.org.service.IRegistrationCouchbaseService;
 
 import lombok.extern.log4j.Log4j2;

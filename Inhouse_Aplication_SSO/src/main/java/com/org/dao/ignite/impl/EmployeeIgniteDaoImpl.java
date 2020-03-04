@@ -6,8 +6,9 @@ import java.util.List;
 import java.util.Map;
 import org.springframework.stereotype.Repository;
 import com.org.dao.ignite.IEmployeeIgniteDao;
-import com.org.dto.EmployeeDto;
 import com.org.entity.EmployeeEntity;
+import com.org.entity.dto.EmployeeDto;
+
 import lombok.extern.log4j.Log4j;
 
 @Log4j

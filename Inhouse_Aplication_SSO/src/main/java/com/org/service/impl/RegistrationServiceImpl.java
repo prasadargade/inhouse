@@ -11,9 +11,10 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.annotation.Validated;
-import com.org.dto.RegistrationDto;
+
 import com.org.entity.RegistrationEntity;
 import com.org.entity.RoleEntity;
+import com.org.entity.dto.RegistrationDto;
 import com.org.repository.RegistrationRepository;
 import com.org.repository.RoleRepository;
 import com.org.validation.ValidAuthorize;

@@ -5,9 +5,9 @@ import java.io.Serializable;
 import org.springframework.stereotype.Repository;
 
 import com.org.dao.ignite.IRegistrationIgniteDao;
-import com.org.dto.RegistrationDto;
 import com.org.entity.EmployeeEntity;
 import com.org.entity.RegistrationEntity;
+import com.org.entity.dto.RegistrationDto;
 
 import lombok.extern.log4j.Log4j2;
 

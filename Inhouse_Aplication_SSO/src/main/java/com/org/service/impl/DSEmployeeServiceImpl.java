@@ -12,8 +12,8 @@ import org.springframework.validation.annotation.Validated;
 
 import com.org.dao.couchbase.IDSEmployeeCouchbaseDao;
 import com.org.dao.mysql.IDSEmployeeSQLDao;
-import com.org.dto.EmployeeDto;
 import com.org.entity.EmployeeEntity;
+import com.org.entity.dto.EmployeeDto;
 import com.org.exeception.RegistrationException;
 import com.org.service.IEmployeeService;
 

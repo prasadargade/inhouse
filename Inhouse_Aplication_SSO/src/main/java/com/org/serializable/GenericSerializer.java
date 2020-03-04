@@ -5,7 +5,8 @@ import org.apache.kafka.common.serialization.Serializer;
 import org.springframework.stereotype.Component;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.org.dto.GenericObjectDto;
+import com.org.entity.dto.GenericObjectDto;
+
 import lombok.extern.log4j.Log4j2;
 
 @Log4j2

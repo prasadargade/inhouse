@@ -8,9 +8,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import com.org.dto.EmployeeDto;
+
+import com.org.entity.dto.EmployeeDto;
+import com.org.entity.model.Employee;
 import com.org.exeception.RegistrationException;
-import com.org.model.Employee;
 import com.org.serializable.GenericSerializer;
 import com.org.service.IEmployeeService;
 import com.org.kafka.MessageProducer;

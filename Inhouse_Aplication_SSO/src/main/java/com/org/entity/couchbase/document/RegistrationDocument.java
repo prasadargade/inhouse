@@ -1,4 +1,4 @@
-package com.org.document;
+package com.org.entity.couchbase.document;
 
 import javax.validation.constraints.NotNull;
 import org.joda.time.DateTime;

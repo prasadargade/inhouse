@@ -1,4 +1,4 @@
-package com.org.dto;
+package com.org.entity.dto;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;

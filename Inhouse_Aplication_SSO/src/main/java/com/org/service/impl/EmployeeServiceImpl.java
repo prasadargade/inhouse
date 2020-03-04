@@ -10,8 +10,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.validation.annotation.Validated;
 
 import com.org.dao.ignite.IEmployeeIgniteDao;
-import com.org.dto.EmployeeDto;
 import com.org.entity.EmployeeEntity;
+import com.org.entity.dto.EmployeeDto;
 import com.org.service.IEmployeeService;
 import com.org.validation.ValidAuthorize;
 

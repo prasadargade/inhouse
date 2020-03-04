@@ -13,8 +13,8 @@ import javax.transaction.Transactional;
 import org.springframework.stereotype.Repository;
 
 import com.org.dao.mysql.IDSEmployeeSQLDao;
-import com.org.dto.EmployeeDto;
 import com.org.entity.EmployeeEntity;
+import com.org.entity.dto.EmployeeDto;
 import com.org.exeception.RegistrationException;
 
 import lombok.extern.log4j.Log4j2;
